@@ -1,0 +1,151 @@
+body {
+	background-image: url("../fotos/colores.jpg");
+	text-align:center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+h1 {
+	font-family: broadway;
+	color: white;
+	font-size: 125px;
+	text-align: center;
+}
+
+h2 {
+	cursor:default;
+	display: block; 
+	line-height: 100px;
+    text-shadow: 0 1px 0  #8c8c8c,
+               0 2px 0  #8c8c8c,
+               0 3px 0  #8c8c8c,
+               0 4px 0  #8c8c8c,
+               0 5px 0  #8c8c8c,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent;
+	color:#e62e00;
+	font-size: 50px;
+	text-align: center;
+}
+
+.icon {
+	font-size: 15px;
+}
+
+#menu img{
+	width: 40px;
+   
+}
+
+.jumbotron {
+	background-color: rgba(253, 254, 254, 0.6);
+	width: 1500px;
+	margin:auto;
+}
+ 
+
+#menu ul li {
+    background-color:#e62e00;
+}
+
+#menu ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+#menu ul a {
+    display:block;
+    color:white;
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:15px;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing:2px;
+}
+
+#menu ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+	width:379.81px;  
+}
+
+#menu ul li:hover {
+    background:#ffb380;
+}
+
+#menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    padding:0;
+}
+
+#menu ul ul li {
+    float:none;
+    width:379.81px;  
+	height:57px;
+}
+
+#menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+}
+
+#menu ul li:hover > ul {
+    display:block;
+}
+
+#cabecera {
+	width:100%;
+	background:#e62e00;
+	position:fixed;
+	z-index: 15;
+}
+div#imagen{
+	width: 50px;
+	height: 800px;
+	margin-left:100px;
+	position:relative;
+
+}
+
+div#info{
+	position:absolute;
+	overflow: hidden; 
+	width: 1280px;
+	height: 720px;
+	background-color: rgba(31, 31, 31, 0.8);
+	opacity: 0;
+	-webkit-transition:0,2;
+}
+
+div#imagen:hover div#info{
+	opacity:1;
+}
+
+p#headline{
+	font-size: 21px;
+	position:absolute;
+	margin-left:300px;
+	-webkit-transition: margin 0.2s;
+	margin-top: 20px;
+}
+
+div#imagen:hover p#headline{
+	margin-left: 500px;
+}
+p#info2{
+	width: 380px;
+	position: absolute;
+	text-align: center;
+	margin-top: 300px;
+	margin-left:500px;
+	color:#e62e00;
+}
