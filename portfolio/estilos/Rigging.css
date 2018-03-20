@@ -1,0 +1,89 @@
+body {
+	background-image: url("../fotos/dragon.jpg");
+	text-align:center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+h1 {
+	font-family: broadway;
+	color: white;
+	font-size: 125px;
+	text-align: center;
+}
+
+.jumbotron {
+	background-color: rgba(253, 254, 254, 0.6);
+	width: 1500px;
+	margin:auto;
+}
+
+.icon {
+	font-size: 15px;
+}
+
+#menu img{
+	width: 40px;
+  
+}
+
+#menu ul li {
+    background-color:#5c8a8a;
+}
+
+#menu ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+#menu ul a {
+    display:block;
+    color:white;
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:15px;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing:2px;
+}
+
+#menu ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+	width: 307px;
+}
+
+#menu ul li:hover {
+    background:#b3cccc;
+}
+
+#menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    padding:0;
+}
+
+#menu ul ul li {
+    float:none;
+    width:307px;
+}
+
+#menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+}
+
+#menu ul li:hover > ul {
+    display:block;
+}
+
+#cabecera {
+	width:100%;
+	background:#5c8a8a;
+	position:fixed;
+}
